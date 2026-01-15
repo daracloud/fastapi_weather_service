@@ -1,0 +1,94 @@
+Added a .gitignore file. Paste this into your project root as `.gitignore`:
+
+```name=.gitignore
+# Byte-compiled / optimized / DLLs
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-wheel-metadata/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+.nox/
+.pytest_cache/
+coverage.xml
+*.cover
+*.py,cover
+
+# Translations
+*.mo
+*.pot
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+venv.bak/
+env.bak/
+
+# Pyenv
+.python-version
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter
+.ipynb_checkpoints
+
+# macOS
+.DS_Store
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite3
+
+# dotenv files (secrets)
+.env
+.env.* 
+
+# Docker-related local overrides
+docker-compose.override.yml
+docker-compose.*.yml
+
+# Static analysis / caches
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+
+# Local settings
+local_settings.py
+```
